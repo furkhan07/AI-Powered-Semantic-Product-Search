@@ -1,4 +1,25 @@
-# Sentence Embeddings API
+# AI-Powered Semantic Product Search
+
+This project implements semantic product search using Sentence Transformers.  
+It allows you to find similar products based on natural language queries.
+
+## Features
+- Semantic search for products
+- Uses pre-trained sentence transformers
+- Easy to integrate into web applications
+
+## Tools & Libraries
+- Python
+- Sentence Transformers
+- NumPy
+- Pandas
+- scikit-learn
+
+## How to Run
+1. Clone the repo
+2. Install dependencies
+3. Run the Python scripts
+
 
 ## Overview
 
@@ -69,5 +90,6 @@ Content-Type: application/json
 ```
 
 ## Security
+
 
 The API uses an API key for basic authentication. Ensure to keep your API key confidential. You can change it using the environment variable `API_KEY`.
